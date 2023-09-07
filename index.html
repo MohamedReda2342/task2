@@ -8,34 +8,54 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href="Scripts/bootstrap.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- -------------------------------------------------------- -->
-<div class="container">
-    
-    <div class="row d-flex justify-content-center">
-        <div class="" id="loginCardClass">
-            <form id="loginCard">
-              <p id="username"><span><img src="assets/user.png" alt="User Icon" width="6%">User Name</span></p>
-              <input type="text" class="aa"  />
-              <br>
-              <br>
-              <p><span><img src="assets/lock.png" alt="password Icon"  width="6%"></span> Password</p>
-              <input type="text" class="aa"  />
-              <br>
-              <br>
-              <button type="button" class="btn btn-primary mx-auto">LOGIN</button>
-          </form>          
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center flex-column my-auto mx-auto">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 style="color: white;">Account Login</h2>
+        <div>
+          <form class="bg-light p-3 rounded-3">
+            <!-- UserName Input Field -->
+            <div>
+              <label for="name">
+                <i class="fa-solid fa-user"></i> User name
+              </label>
+              <input id="name" type="text" />
+            </div>
+            <hr>
+            <!-- Password Input Field -->
+            <div>
+              <label for="password">
+                <i class="fa-solid fa-lock"></i> Password
+              </label>
+              <input id="password" type="text" />
+            </div>
+            <hr>
+            <!-- Login Button -->
+            <p id="Alert" style="color: red;"></p>
+            <button  type="button" class="btn btn-primary rounded-3 " id="loginButton"> LOGIN </button>
+          </form>
+        </div>
+      </div>
     </div>
-</div>
 
-<div class="row">
-    <img src="assets/img_nature.jpg" alt="">
-</div>
-</div>
-
-
-    <!-- -------------------------------------------------------- -->
+  <!-- -------------------------------------------------------- -->
   </body>
   <script src="Scripts/bootstrap.js"></script>
   <script src="main.js"></script>
